@@ -82,7 +82,7 @@ public class UserInterface implements ActionListener {
 		addButton(buttonPanel, "0");
 
 		buttonPanel.add(new JLabel(" "));
-		buttonPanel.add(new JLabel(" "));
+		addButton(buttonPanel, "diff");
 
 		addButton(buttonPanel, "/");
 		addButton(buttonPanel, "=");
