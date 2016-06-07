@@ -11,9 +11,6 @@ public class CalcEngine
     // The current value (to be) shown in the display.
     
     protected String calcString;
-    private	JulianDate dateOne;
-    private JulianDate dateTwo;
-    private char operator;
 
     /**
      * Create a CalcEngine.
@@ -37,18 +34,7 @@ public class CalcEngine
     {
         calcString = "";
     }
-    
-    public void showWeekDay(){
-    	
-    }
 
-    public void add(){
-    	
-    }
-    
-    public void subtract(){
-    	
-    }
     /**
      * @return The title of this calculation engine.
      */
